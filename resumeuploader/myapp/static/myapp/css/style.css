@@ -1,0 +1,29 @@
+body{
+    background: cornsilk;
+}
+.form-group{
+    margin-left: 40px;
+    width: 75%;
+}
+.resform{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#id_gender,#id_job_city{
+    list-style: none;
+    display: inline-flex;
+}
+#id_gender> div{
+    padding-left: 10px;
+}
+#id_job_city> div{
+    padding-left: 10px;
+}
+#header{
+    height: 75%;
+    width: 101%;
+    border: 2px solid skyblue;
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+    background: cornflowerblue;
+}
